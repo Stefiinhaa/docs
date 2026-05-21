@@ -1,29 +1,33 @@
-graph TD
-    A[Dataset CSV] -->|Extração| B(Python / Pandas)
-    B -->|Limpeza e Transformação| C{Tratamento de Dados}
-    C -->|Carga / Insert| D[(MySQL - Data Warehouse)]
-    D -->|Conexão DirectQuery/Import| E[Power BI]
-    E -->|Visualização| F(Dashboard e KPIs Regionais)
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#e6e6e6,stroke:#b20000,stroke-width:2px
-    style D fill:#b20000,stroke:#fff,stroke-width:2px,color:#fff
- 
- # 📊 Observatório de Desempenho e Saúde Mental Estudantil
+# 📊 Observatório de Desempenho e Comportamento Estudantil
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Fase%201%20Concluída-b20000?style=for-the-badge)
+## 🎯 Sobre o Projeto
+Este repositório contém o desenvolvimento do Projeto Integrador Extensionista em Ciência de Dados. O objetivo é analisar um conjunto de dados simulando o perfil de estudantes modernos para entender como fatores comportamentais, psicológicos e de estilo de vida digital influenciam o desempenho acadêmico. 
 
-## 📌 Sobre o Projeto
-Projeto Integrador Extensionista focado em extrair, tratar e analisar dados educacionais simulando o cenário da nossa região. O objetivo é cruzar métricas de rotina (horas de sono, moradia) com foco e nota final, ajudando instituições de ensino a prevenir o *Burnout* acadêmico.
+O projeto culmina na entrega de um dashboard interativo (Devolutiva Extensionista) voltado para educadores e coordenadores pedagógicos, auxiliando na tomada de decisão.
 
-## 🗂️ Arquitetura e Fluxograma
-Abaixo, o fluxo de dados desenhado para este projeto:
+## 🛠️ Stack Tecnológico
+* **Linguagem:** Python (Pandas para ETL)
+* **Banco de Dados:** MySQL (Armazenamento e Persistência)
+* **Visualização:** Power BI (Dashboards e KPIs)
+* **Versionamento:** Git e GitHub
 
-```mermaid
-graph TD
-    A[Base CSV] --> B(Tratamento em Python)
-    B --> C[(MySQL)]
-    C --> D[Power BI]
+## 📂 Estrutura do Repositório
+* `/docs`: Documentações, Termo de Abertura, Briefing e Matriz de Riscos.
+* `/data`: Base de dados original e tratada.
+* `/scripts`: Códigos de extração, tratamento e conexão com banco.
+
+## 🗺️ Arquitetura de Dados (Fluxograma)
+> *(Adicione o print do seu fluxograma feito no draw.io aqui)*
+> `![Fluxograma do Projeto](link-da-imagem)`
+
+## 📋 Gestão Ágil (Kanban)
+O gerenciamento de tarefas deste projeto está sendo conduzido através do Trello.
+> *(Adicione o print do seu quadro do Trello aqui)*
+> `![Quadro Kanban](link-da-imagem)`
+
+## 📌 Status Atual
+- [x] Definição do Escopo e Perguntas Analíticas (AE1)
+- [x] Configuração do Repositório e Gestão Ágil
+- [ ] Construção do Pipeline (ETL) em Python
+- [ ] Modelagem no MySQL
+- [ ] Desenvolvimento do Dashboard no Power BI
