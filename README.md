@@ -1,9 +1,8 @@
 # Observatório de Desempenho e Comportamento Estudantil
 
-## 🎯 Sobre o Projeto
+## Sobre o Projeto
 Este repositório contém o desenvolvimento do Projeto Integrador Extensionista em Ciência de Dados. O objetivo é analisar um conjunto de dados simulando o perfil de estudantes modernos para entender como fatores comportamentais, psicológicos e de estilo de vida digital influenciam o desempenho acadêmico. 
 
-O projeto resulta na entrega de um dashboard interativo (Devolutiva Extensionista) voltado para educadores e coordenadores pedagógicos, auxiliando na tomada de decisão.
 
 ## Stack Tecnológico
 * **Linguagem:** Python (Pandas para ETL)
