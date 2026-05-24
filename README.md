@@ -32,5 +32,4 @@ O acompanhamento de entregas, EAP e mitigação de riscos está sendo gerido via
 - [x] EAP, Matriz de Riscos e Cronograma.
 - [x] Estruturação inicial do GitHub.
 
----
-*Desenvolvido para fins acadêmicos e de extensão comunitária.*
+
