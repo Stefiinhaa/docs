@@ -25,6 +25,7 @@ Abaixo está o fluxo detalhado das etapas do nosso processamento de dados (ETL):
 O acompanhamento de entregas, EAP e mitigação de riscos está sendo gerido via Trello. Segue o registro do board atual:
 
 ![kanban](docs/escopo-1/AE1/kanban-trello.png)
+https://trello.com/invite/b/6a0f0536261037067da72fe3/ATTI181a38c54d26145b37073634376d658f4B595489/pi-extensionista-cd1
 
 ## ⩥ Escopo e Entregas (Fase 1)
 - [x] Termo de Abertura e Briefing.
