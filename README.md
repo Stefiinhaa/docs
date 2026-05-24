@@ -1,4 +1,4 @@
-# 📊 Observatório de Qualificação Profissional e Empregabilidade
+# ↪ Observatório de Qualificação Profissional e Empregabilidade
 
 Este repositório contém o desenvolvimento do Projeto Integrador Extensionista em Ciência de Dados, focado em analisar os desafios e impactos da qualificação profissional no Brasil.
 
