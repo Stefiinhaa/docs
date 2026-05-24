@@ -19,7 +19,7 @@ O projeto utiliza dados da pesquisa suplementar PNAD 2014 (IBGE) sobre Educaçã
 ## ⩥ Fluxograma de Dados (Pipeline)
 Abaixo está o fluxo detalhado das etapas do nosso processamento de dados (ETL):
 
-![Fluxograma do Projeto](inserir_o_caminho_da_imagem_do_draw_io_aqui.png)
+![Fluxograma do Projeto](diagrama.drawio.png)
 
 ## ⩥ Gestão Ágil (Kanban)
 O acompanhamento de entregas, EAP e mitigação de riscos está sendo gerido via Trello. Segue o registro do board atual:
