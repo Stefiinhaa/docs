@@ -1,32 +1,36 @@
-# Observatório de Desempenho e Comportamento Estudantil
+# 📊 Observatório de Qualificação Profissional e Empregabilidade
 
-## Sobre o Projeto
-Este repositório contém o desenvolvimento do Projeto Integrador Extensionista em Ciência de Dados. O objetivo é analisar um conjunto de dados simulando o perfil de estudantes modernos para entender como fatores comportamentais, psicológicos e de estilo de vida digital influenciam o desempenho acadêmico. 
+Este repositório contém o desenvolvimento do Projeto Integrador Extensionista em Ciência de Dados, focado em analisar os desafios e impactos da qualificação profissional no Brasil.
 
+## 📝 Sobre o Projeto
+O projeto utiliza dados da pesquisa suplementar PNAD 2014 (IBGE) sobre Educação e Qualificação Profissional. O objetivo principal é atuar como um observatório, extraindo insights analíticos sobre os motivos de evasão em cursos profissionalizantes e o impacto dessa formação na renda familiar. O público-alvo são instituições de ensino e gestores de políticas públicas.
 
-## Stack Tecnológico
-* **Linguagem:** Python (Pandas para ETL)
-* **Banco de Dados:** MySQL (Armazenamento e Persistência)
-* **Visualização:** Power BI (Dashboards e KPIs)
-* **Versionamento:** Git e GitHub
+## 📂 Fonte dos Dados
+* **Origem:** Instituto Brasileiro de Geografia e Estatística (IBGE)
+* **Base:** PNAD 2014 - Educação e Qualificação Profissional (Formato CSV).
+* Os dados são de domínio público, anonimizados, respeitando as diretrizes éticas e a LGPD.
 
-## Estrutura do Repositório
-* `/docs`: Documentações, Termo de Abertura, Briefing e Matriz de Riscos.
-* `/data`: Base de dados original e tratada.
-* `/scripts`: Códigos de extração, tratamento e conexão com banco.
+## 🛠️ Tecnologias Utilizadas
+* **Python (Pandas):** Para limpeza e transformação inicial dos dados.
+* **MySQL:** Armazenamento estruturado e consultas (Queries) analíticas.
+* **Ferramenta de BI:** Para visualização e apresentação dos KPIs.
+* **GitHub & Trello:** Versionamento de código e gestão ágil (Kanban).
 
-## Arquitetura de Dados (Fluxograma)
-> *(Adicione o print do seu fluxograma feito no draw.io aqui)*
-> `![Fluxograma do Projeto](link-da-imagem)`
+## 🗺️ Fluxograma de Dados (Pipeline)
+Abaixo está o fluxo detalhado das etapas do nosso processamento de dados (ETL):
 
-## Gestão Ágil (Kanban)
-O gerenciamento de tarefas deste projeto está sendo conduzido através do Trello.
-> *(Adicione o print do seu quadro do Trello aqui)*
-> `![Quadro Kanban](link-da-imagem)`
+![Fluxograma do Projeto](inserir_o_caminho_da_imagem_do_draw_io_aqui.png)
 
-## Status Atual
-- [x] Definição do Escopo e Perguntas Analíticas (AE1)
-- [x] Configuração do Repositório e Gestão Ágil
-- [ ] Construção do Pipeline (ETL) em Python
-- [ ] Modelagem no MySQL
-- [ ] Desenvolvimento do Dashboard no Power BI
+## 📋 Gestão Ágil (Kanban)
+O acompanhamento de entregas, EAP e mitigação de riscos está sendo gerido via Trello. Segue o registro do board atual:
+
+![Print do Quadro Kanban no Trello](inserir_o_caminho_da_imagem_do_print_do_trello_aqui.png)
+
+## 📌 Escopo e Entregas (Fase 1)
+- [x] Termo de Abertura e Briefing.
+- [x] Definição das Perguntas Analíticas e KPIs.
+- [x] EAP, Matriz de Riscos e Cronograma.
+- [x] Estruturação inicial do GitHub.
+
+---
+*Desenvolvido para fins acadêmicos e de extensão comunitária.*
