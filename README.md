@@ -16,7 +16,7 @@ O projeto utiliza dados da pesquisa suplementar PNAD 2014 (IBGE) sobre Educaçã
 * **Ferramenta de BI:** Para visualização e apresentação dos KPIs.
 * **GitHub & Trello:** Versionamento de código e gestão ágil (Kanban).
 
-## ⩥ Fluxograma de Dados (Pipeline)
+## ⩥ Fluxograma de Dados
 Abaixo está o fluxo detalhado das etapas do nosso processamento de dados (ETL):
 
 ![fluxograma](docs/escopo-1/AE1/diagrama.drawio.png)
